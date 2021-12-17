@@ -26,7 +26,7 @@ namespace CalculatorApp.View
                     Console.Write("\n Press 0 to exit or 1 to continue : ");
                     showMenu = ReadInput();
                 }
-            } while (showMenu == 1);
+            } while (showMenu == 1 && choice != 5);
         }
 
         // select arithmatic operation

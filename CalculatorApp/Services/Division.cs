@@ -10,7 +10,9 @@ namespace CalculatorApp.Services
             try
             {
                 for (int i = 0; i < arr.Length; i++)
+                {
                     result = i == 0 ? arr[i] : result / arr[i];
+                }
                 
             }
             catch (DivideByZeroException)
